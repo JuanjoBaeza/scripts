@@ -27,7 +27,7 @@ EOF
 }
 
 while [[ $# -gt 0 ]]        # Cogemos las variables que vengan por linea de comando
-#while [[ ! -z "$1" ]]      # Otra manera de hacer los mismo
+#while [[ ! -z "$1" ]]      # Otra manera de hacer lo mismo
 do
     case $1 in
         -h|--help)
